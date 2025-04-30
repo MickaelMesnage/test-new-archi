@@ -1,7 +1,8 @@
-import { trpc } from "../utils/trpc";
+import { useQuery } from "@tanstack/react-query";
+import { productGetAllQuery } from "src/data/request";
 
 export function ProductsPage() {
-  const { data: products, isLoading, error } = trpc.product.getAll.useQuery();
+  const { data: products, isLoading, error } = useQuery(productGetAllQuery());
 
   if (isLoading) {
     return (
