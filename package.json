@@ -1,0 +1,31 @@
+{
+  "name": "new-archi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "@tanstack/react-query": "^5.74.11",
+    "@trpc/client": "^11.1.2",
+    "@trpc/react-query": "^11.1.2",
+    "@trpc/server": "^11.1.2",
+    "@types/node": "^22.15.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "prisma": "^6.7.0",
+    "react-hook-form": "^7.56.1",
+    "tailwindcss": "^4.1.5",
+    "typescript": "^5.8.3",
+    "zod": "^3.24.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.7.0"
+  }
+}
